@@ -5,7 +5,7 @@ from sqlalchemy.orm import Session
 # from .database import SessionLocal, engine
 from datetime import datetime
 import httpx
-models.Base.metadata.create_all(bind=engine)
+# models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
